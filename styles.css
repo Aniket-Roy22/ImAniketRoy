@@ -29,6 +29,11 @@ p
     font-family: "Montserrat", sans-serif
 }
 
+span
+{
+    margin: 0 10px;
+}
+
 .background
 {
     width: 100%;
@@ -227,6 +232,15 @@ a
 
 @media (max-width: 1000px)
 {
+    h1
+    {
+        font-size: 17vw;
+    }
+    h4
+    {
+        font-size: 7vw;
+    }
+
     .edu-cards
     {
         gap: 5rem;
@@ -268,6 +282,8 @@ a
 {
     .footer
     {
-        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
