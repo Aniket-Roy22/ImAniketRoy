@@ -1,0 +1,264 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1
+{
+    font-size: 100px;
+}
+h2
+{
+    font-size: 40px;
+    font-family: "Vollkorn", serif;
+    font-weight: bolder;
+}
+h3
+{
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
+}
+h4
+{
+    font-size: 30px;
+}
+p
+{
+    font-family: "Montserrat", sans-serif
+}
+
+.background
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.intro
+{
+    position: absolute;
+    text-align: center;
+}
+
+.intro > h1
+{
+    font-family: "Playwrite HR Lijeva", cursive;
+    margin-top: 0;
+    padding: 0 75px;
+}
+
+.top-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 5rem;
+}
+
+.edu-cards > div
+{
+    max-width: 35vw;
+    padding: 30px 30px 10px;
+    box-shadow: 0 0 8px 2px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.edu-cards>div:hover
+{
+    box-shadow: 0 0 16px 2px rgba(0,0,0,0.2);
+}
+
+.edu > h2
+{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.edu-title
+{
+    text-align: center;
+}
+
+.school,.college
+{
+    text-align: justify;
+}
+
+.edu img
+{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.skills
+{
+    background-color: #9EB384;
+    padding: 50px;
+}
+
+.skill-cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.skill-cards > div
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 35vw;
+    padding: 30px 30px 10px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.skills h2
+{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #28311f;
+}
+
+.skill-logo
+{
+    width: 40px;
+    margin-right: 20px;
+}
+
+.skill-title
+{
+    margin-top: 0;
+}
+
+.skill-desc > p
+{
+    text-align: justify;
+}
+
+.hobbies
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.hobby-container h2
+{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hobby-cards
+{
+    max-width: 35vw;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.hobby-cards:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hobby-images
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+
+.hobby-desc
+{
+    text-align: justify;
+}
+
+.hobby-title, .hobby-desc
+{
+    padding: 0 20px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #9EB384;
+}
+
+.footer > h4
+{
+    font-size: 20px;
+    color: #28311f;
+    font-family: "Exo", sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    margin: 0 25px;
+    color: #435334;
+    font-family: "Exo", sans-serif;
+}
+
+@media (max-width: 1000px)
+{
+    .edu-cards
+    {
+        gap: 5rem;
+    }
+
+    .edu-cards > div
+    {
+        max-width: 60vw;
+        margin: 0;
+    }
+
+    .skill-cards
+    {
+        gap: 5rem;
+    }
+
+    .skill-cards > div
+    {
+        max-width: 60vw;
+    }
+
+    .hobbies
+    {
+        gap: 5rem;
+    }
+
+    .hobby-cards
+    {
+        max-width: 60vw;
+    }
+
+    a
+    {
+        margin: 20px;
+    }
+}
