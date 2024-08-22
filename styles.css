@@ -82,7 +82,7 @@ span
 
 .edu-cards>div:hover
 {
-    box-shadow: 0 0 16px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 0 18px 3px rgba(0,0,0,0.2);
 }
 
 .edu > h2
@@ -286,4 +286,22 @@ a
         justify-content: space-around;
         align-items: center;
     }
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.appear-on-scroll
+{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
 }
