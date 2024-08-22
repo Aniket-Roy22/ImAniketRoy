@@ -26,7 +26,8 @@ h4
 }
 p
 {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
 }
 
 span
@@ -98,7 +99,7 @@ span
 
 .school,.college
 {
-    text-align: justify;
+    text-align: left;
 }
 
 .edu img
@@ -157,7 +158,7 @@ span
 
 .skill-desc > p
 {
-    text-align: justify;
+    text-align: left;
 }
 
 .hobbies
@@ -198,7 +199,7 @@ span
 
 .hobby-desc
 {
-    text-align: justify;
+    text-align: left;
 }
 
 .hobby-title, .hobby-desc
